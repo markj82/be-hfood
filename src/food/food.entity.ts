@@ -11,7 +11,13 @@ export class Food {
     @Column({length: 60})
     type: string;
 
-    @Column({length: 250})
+    @Column({length: 1000})
+    desc: string;
+
+    @Column()
+    price: number;
+
+    @Column({length: 1000})
     img_url: string;
 
     @Column()
