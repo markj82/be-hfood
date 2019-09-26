@@ -1,6 +1,13 @@
-This is a backend project created for Mercarto. It's build with Nest.js, TypeScript, typeORM and PostgreSQL.
 
-First of all, after you clone this repo, create .env file in the root folder and paste this code
+## Healthy Food back-end
+This is a backend project created for to explore new tech stack. It's build with Nest.js, TypeScript, typeORM and PostgreSQL.
+
+### Getting started
+For the fronted clone this repo
+[https://github.com/markj82/fe-hfood](https://github.com/markj82/fe-hfood)
+and follow the instuctions in README file
+
+Create .env file in the root folder and paste this code:
 ```
 APP_SECRET=!NotSoSecretChangeMe!
 TYPEORM_CONNECTION=postgres
@@ -16,6 +23,7 @@ TYPEORM_SYNCHRONIZE=false
 ```
 
 if you don't have PostgreSQL, you have to download it and install
+[https://www.postgresql.org/](https://www.postgresql.org/)
 
 install all dependencies
 ```
